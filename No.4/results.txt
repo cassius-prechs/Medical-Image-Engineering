@@ -1,0 +1,48 @@
+Image           MEN        CNT        VAR      SKW      KRT        EGY      EPY
+--------------------------------------------------------------------------------
+bamboo        128.09    18210.58     1804.41   -0.7819    2.8140    0.008317    4.9694
+ground        111.35    13621.91     1223.75   -0.5257    2.9108    0.008503    4.9270
+panch         163.63    39826.53    13051.84   -0.5935    1.4558    0.257226    2.5825
+tile          185.73    36800.78     2305.29   -1.5165    4.2428    0.020213    4.4584
+wall          172.27    30789.05     1112.41   -1.2107    4.2802    0.010857    4.7532
+
+--- LaTeX table ---
+\begin{tabular}{lrrrrrrr}
+\toprule
+Image & MEN & CNT & VAR & SKW & KRT & EGY & EPY \\
+\midrule
+bamboo & 128.09 & 18210.58 & 1804.41 & -0.7819 & 2.8140 & 0.008317 & 4.9694 \\
+ground & 111.35 & 13621.91 & 1223.75 & -0.5257 & 2.9108 & 0.008503 & 4.9270 \\
+panch & 163.63 & 39826.53 & 13051.84 & -0.5935 & 1.4558 & 0.257226 & 2.5825 \\
+tile & 185.73 & 36800.78 & 2305.29 & -1.5165 & 4.2428 & 0.020213 & 4.4584 \\
+wall & 172.27 & 30789.05 & 1112.41 & -1.2107 & 4.2802 & 0.010857 & 4.7532 \\
+\bottomrule
+\end{tabular}
+
+==================================================
+Circle image (circle.bmp)
+  Area      A = 79200 pixels
+  Perimeter L = 1054.92 pixels
+
+==================================================
+Chameleon image (chameleon3.bmp)
+  Area      A = 62592 pixels
+  Perimeter L = 2585.82 pixels
+
+Saved to outputs/:
+  circle_binary.png, circle_contour.png, circle_overlay.png
+  chameleon_binary.png, chameleon_contour.png, chameleon_overlay.png
+
+==================================================
+Shape Feature: Circularity = 4*pi*A / L^2  (circle = 1.0)
+==================================================
+
+Circle (circle.bmp)
+  Area        A = 79200 pixels
+  Perimeter   L = 1054.92 pixels
+  Circularity   = 0.8943
+
+Chameleon (chameleon3.bmp)
+  Area        A = 62592 pixels
+  Perimeter   L = 2585.82 pixels
+  Circularity   = 0.1176
