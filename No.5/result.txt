@@ -1,0 +1,11 @@
+Saved: ./outputs/fig_1_1_fft.png
+Saved: ./outputs/fig_1_2_phase.png
+
+=== Phase-Only Correlation 結果 ===
+ピーク座標 (raw)  : x=18, y=15
+推定移動量        : Δx=-18 [pixel] (右方向正), Δy=-15 [pixel] (下方向正)
+※ poc2 は poc1 に対して 左右方向に 18 px、上下方向に 15 px移動
+   方向: 左に18px, 上に15px
+Saved: ./outputs/fig_1_3_poc.png
+
+全図の保存が完了しました。
